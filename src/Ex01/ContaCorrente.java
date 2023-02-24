@@ -1,8 +1,7 @@
 package Ex01;
 
 public class ContaCorrente extends Conta implements Operavel{
-
-
+    
     public double obterSaldoAtual(){
         return super.saldo;
     }
