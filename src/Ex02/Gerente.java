@@ -1,6 +1,8 @@
 package Ex02;
 
 public final class Gerente extends Funcionario{
+
+    @Override
     protected String obterCargo(){
         return "Sou Gerente";
     }
